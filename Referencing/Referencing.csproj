@@ -1,11 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Referenced\Referenced.csproj" />
+    <ProjectReference Include="..\Referenced\Referenced.csproj" Private="false" ExcludeAssets="all" />
   </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
+    <DisableTransitiveProjectReferences>true</DisableTransitiveProjectReferences>
   </PropertyGroup>
 
 </Project>
