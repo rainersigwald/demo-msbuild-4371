@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Referenced\Referenced.csproj" Private="false" />
+    <ProjectReference Include="..\Referenced\Referenced.csproj" Private="false" ExcludeAssets="all" />
   </ItemGroup>
 
   <PropertyGroup>
