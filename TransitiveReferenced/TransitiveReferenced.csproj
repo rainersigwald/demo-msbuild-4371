@@ -1,9 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\TransitiveReferenced\TransitiveReferenced.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
   </PropertyGroup>
