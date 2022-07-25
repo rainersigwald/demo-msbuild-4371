@@ -6,6 +6,7 @@
 
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
+    <DisableTransitiveProjectReferences>true</DisableTransitiveProjectReferences>
   </PropertyGroup>
 
 </Project>
