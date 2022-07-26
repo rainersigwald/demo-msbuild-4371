@@ -1,7 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\TransitiveReferenced\TransitiveReferenced.csproj" />
+    <ProjectReference Include="..\TransitiveReferenced\TransitiveReferenced.csproj">
+      <PrivateAssets>all</PrivateAssets>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
 
   <PropertyGroup>

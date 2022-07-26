@@ -1,11 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Referenced\Referenced.csproj" />
+    <ProjectReference Include="..\Referenced\Referenced.csproj">
+      <!-- it will be saver to have this as well <PrivateAssets>all</PrivateAssets>-->
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
+    <BaseOutputPath>SomeWhereElse</BaseOutputPath>
   </PropertyGroup>
 
 </Project>
